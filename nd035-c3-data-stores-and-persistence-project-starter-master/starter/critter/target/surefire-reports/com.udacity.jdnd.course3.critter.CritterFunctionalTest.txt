@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: com.udacity.jdnd.course3.critter.CritterFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in com.udacity.jdnd.course3.critter.CritterFunctionalTest
+testFindOwnerByPet  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveCustomer(com.udacity.jdnd.course3.critter.user.CustomerDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindOwnerByPet(CritterFunctionalTest.java:111)
+
+testFindEmployeesByServiceAndTime  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveEmployee(com.udacity.jdnd.course3.critter.user.EmployeeDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindEmployeesByServiceAndTime(CritterFunctionalTest.java:149)
+
+testAddPetsToCustomer  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveCustomer(com.udacity.jdnd.course3.critter.user.CustomerDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testAddPetsToCustomer(CritterFunctionalTest.java:68)
+
+testCreateCustomer  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveCustomer(com.udacity.jdnd.course3.critter.user.CustomerDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testCreateCustomer(CritterFunctionalTest.java:48)
+
+testSchedulePetsForServiceWithEmployee  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveEmployee(com.udacity.jdnd.course3.critter.user.EmployeeDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testSchedulePetsForServiceWithEmployee(CritterFunctionalTest.java:176)
+
+testFindPetsByOwner  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveCustomer(com.udacity.jdnd.course3.critter.user.CustomerDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindPetsByOwner(CritterFunctionalTest.java:93)
+
+testCreateEmployee  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveEmployee(com.udacity.jdnd.course3.critter.user.EmployeeDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testCreateEmployee(CritterFunctionalTest.java:58)
+
+testChangeEmployeeAvailability  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveEmployee(com.udacity.jdnd.course3.critter.user.EmployeeDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testChangeEmployeeAvailability(CritterFunctionalTest.java:125)
+
+testFindScheduleByEntities  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.udacity.jdnd.course3.critter.user.UserController.saveEmployee(com.udacity.jdnd.course3.critter.user.EmployeeDTO)" because "this.userController" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.lambda$populateSchedule$1(CritterFunctionalTest.java:286)
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.populateSchedule(CritterFunctionalTest.java:287)
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindScheduleByEntities(CritterFunctionalTest.java:198)
+
